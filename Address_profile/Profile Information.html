@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Orders</title>
+	<link rel="stylesheet" type="text/css" href="Css/style.css">
+	<!-- Font awesome -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<!-- Material Icon -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<!-- ----------NavBar Start ------------------>
+<nav class="navbar navbar-expand-lg navbar-light bgcolor sticky-top">
+	<div class="container">
+		<a class="navbar-brand" href="#"><img src="https://static.wixstatic.com/media/c7de0c_4e9f90a28ec8474bbe21d0c8ad56f292~mv2.png/v1/fill/w_600%2Ch_226%2Cal_c%2Cq_90/file.jpg" alt="Flipkart" style="height:40px; width:150px"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<!-- -----------Search Box Start ------------->
+			<div class="boxContainer">
+				<table class="elememtsContainer">
+					<tr>
+						<td>
+							<input type="text" name="" placeholder="Search" class="search">
+						</td>
+						<td class="align-items-center text-center iconcen">
+							<a href="#" title=""><i class="material-icons seicon">search</i></a>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<!-- -----------Search Box End ------------->
+			<!-- -----------Profile Start ------------->
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="Ufont">User</span>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#"><i class="material-icons">account_circle</i>My Profile</a>
+						<a class="dropdown-item" href="#"><i class="material-icons">production_quantity_limits</i>Orders</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item " href="#"><i class="material-icons md-36">power_settings_new</i>Logout</a>
+					</div>
+				</li>
+			</ul>
+			<!-- -----------Profile End ------------->
+			<!-- -----------More Start ------------->
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="Ufont">More</span>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#"><i class="material-icons">account_circle</i>My Profile</a>
+						<a class="dropdown-item" href="#"><i class="material-icons">production_quantity_limits</i>Orders</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item " href="#"><i class="material-icons md-36">power_settings_new</i>Logout</a>
+					</div>
+				</li>
+			</ul>
+			<!-- -----------More End ------------->
+			<!-- -----------Cart Start ------------->
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item dropdown">
+					<a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="material-icons Ufont">shopping_cart</span>
+					</a>
+				</li>
+			</ul>
+			<!-- -----------Cart End ------------->
+		</div>
+	</div>
+</nav>
+<!-- -----------Navbar End ------------->
+
+<!-- -----------Dropdown Menu ------------->
+<div class="menu2dropdown">
+	<table>
+		<tr>
+			<td>
+				<div class="dropdown">
+					<button type="button" class="btn dropdown-toggle font-weight-bold" data-toggle="dropdown">
+					Electronics
+					</button>
+					<div class="dropdown-menu">
+						<a class="dropdown-item font-weight-bold" href="#">Mobiles</a>
+						<a class="dropdown-item" href="#">Realme</a>
+						<a class="dropdown-item" href="#">Samsung</a>
+						<a class="dropdown-item" href="#">Vivo</a>
+						<a class="dropdown-item" href="#">OPPO</a>
+						<a class="dropdown-item" href="#">Asus</a>
+					</div>
+				</div>
+			</td>
+			<td>
+				<div class="dropdown">
+					<button type="button" class="btn dropdown-toggle font-weight-bold" data-toggle="dropdown">
+					TVs & Appliances
+					</button>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Washing Machine</a>
+						<a class="dropdown-item" href="#">Led</a>
+						<a class="dropdown-item" href="#">Smart Tv</a>
+					</div>
+				</div>
+			</td>
+			<td>
+				<div class="dropdown">
+					<button type="button" class="btn dropdown-toggle font-weight-bold" data-toggle="dropdown">
+					Men
+					</button>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Jeans</a>
+						<a class="dropdown-item" href="#">T-Shirts</a>
+						<a class="dropdown-item" href="#">Track Pants</a>
+					</div>
+				</div>
+			</td>
+			<td>
+				<div class="dropdown">
+					<button type="button" class="btn dropdown-toggle font-weight-bold" data-toggle="dropdown">
+					Women
+					</button>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Sarees</a>
+						<a class="dropdown-item" href="#">Blouse</a>
+						<a class="dropdown-item" href="#">Kurta Suits</a>
+					</div>
+				</div>
+			</td>
+			<td>
+				<div class="dropdown">
+					<button type="button" class="btn dropdown-toggle font-weight-bold" data-toggle="dropdown">
+					Baby & Kids
+					</button>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Remote Control Toys</a>
+						<a class="dropdown-item" href="#">Soft Toys</a>
+						<a class="dropdown-item" href="#">OutDoor Toys</a>
+					</div>
+				</div>
+			</td>
+			<td>
+				<div class="dropdown">
+					<button type="button" class="btn dropdown-toggle font-weight-bold" data-toggle="dropdown">
+					Home & Furnitures
+					</button>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Clock</a>
+						<a class="dropdown-item" href="#">Stickers</a>
+						<a class="dropdown-item" href="#">Table Lamp</a>
+					</div>
+				</div>
+			</td>
+			<td>
+				<div class="">
+					<a href="" class="btn font-weight-bold">
+						Flights
+					</a>
+				</div>
+			</td>
+			<td>
+				<div class="">
+					<a href="" class="btn font-weight-bold">
+						Offer Zone
+					</a>
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+<!-- -----------Dropdown Menu End ------------->
+
+<section class="Mainbg">
+	<div class="Maindiv">
+     <div class="row">
+<!-------- first Div Left start ------------->
+<div class="col-lg-3 col-md-3 col-12">
+  <div class="weluser">
+
+<div class="flk">
+	<div>
+		<img src="https://img1a.flixcart.com/www/linchpin/fk-cp-zion/img/profile-pic-male_4811a1.svg" height="50px" width="50px">
+	</div>
+	<div class="blku">
+		<p>Hello,</p>
+		<b>Users</b>
+	</div>
+</div>
+</div>
+    <div>
+
+<div class="lists">
+	<div class="blk1"><i class="fa fa-archive" aria-hidden="true"></i></div>
+	<div class="">
+		<b class="ml-5"><a href="#" class="redf">MY ORDERS</a></b>
+		<hr>
+	</div>
+
+	
+	<div >
+		<div class="blk2"><i class="fa fa-user" aria-hidden="true"></i></div>
+		<b class="ml-5" style="color:#878787;">ACCOUNT SETTINGS</b>
+		<!-- Account Sub Start -->
+		 <div class="ml-5 mt-3 mb-5">
+		 	<a href="#"><p>Personal Information</p></a>
+		 	<a href="#"><p>Manage Addresses</p></a>
+		 </div>
+		 <!-- Account Sub End -->
+	</div>
+<hr>
+	<div class="blk3"><i class="fa fa-money" aria-hidden="true"></i></div>
+	<div >
+		<b class="ml-5" style="color:#878787;">PAYMENTS</b>
+		<!-- Account Sub Start -->
+		 <div class="ml-5 mt-3 mb-3">
+		 	<a href="#"><p>Gift Cards</p></a>
+		 	<a href="#"><p>Saved Cards</p></a>
+		 </div>
+		 <!-- Account Sub End -->
+	</div>
+
+	<div class="blk4"><i class="fa fa-comment-o" aria-hidden="true"></i></div>
+	<div >
+		<hr>
+		<b class="ml-5"><a href="#" style="color:#878787!important;">My Charts</a></b>
+	</div>
+<hr>
+   
+	<div >
+		<div class="blk5"><i class="fa fa-server" aria-hidden="true"></i></div>
+		<b class="ml-5" style="color:#878787!important;">My Stucfs</b>
+		<!-- Account Sub Start -->
+		 <div class="ml-5 mt-2">
+		 	<a href="#"><p>My Coupons</p></a>
+		 	<a href="#"><p>My Reviews & Ratting</p></a>
+		 	<a href="#"><p>All Notifications</p></a>
+		 	<a href="#"><p>My wishlist</p></a>
+		 		
+		 </div>
+		 <hr>
+		 <!-- Account Sub End -->
+
+		 <div class="blk6"><i class="fa fa-sign-out" aria-hidden="true"></i></div>
+	<div>
+		<b class="ml-5"><a href="#" style="color:#878787!important;">Logout</a></b>
+	</div>
+	</div>
+
+</div>
+
+
+  </div>
+</div>
+<!-------- first Div Left End ------------->
+
+
+     	<!-------- First Div Right ------------->
+      <div class="col-lg-9 col-md-9 col-12">
+      	<div class="secdivright">
+      	 <div class="usernm">
+      		<b>Personal Information</b> 
+      		<a href="#" class="ml-3">Edit</a>
+      	 </div>
+         <div>
+         	<form>
+         		<input type="text" name="" value="User" disabled="true" class="inp">
+         		<input type="text" name="" value="Sharma" disabled="true" class="ml-3 inp"><br>
+         		<p class="mt-4">Your Gender</p>
+         		<label>Male</label><input type="radio" class="ml-1" name="Gender" value="checked" disabled="true">
+         		<label>Female</label><input type="radio" class="ml-1" name="Gender" disabled="true">
+           
+               <div class="em">
+         		<b>
+         			Email Address
+         		</b>
+         		<a href="#" class="ml-4 edit">Edit</a>
+         		<a href="#" class="ml-2">Change Password</a>
+               </div>
+         		<b class="mt-4">
+         			Mobile Number :
+         		</b>
+         		<input type="text" name="" disabled="true" value="+91111111111" class="inp ml-2">
+         		<a href="#">Edit</a>
+         	</form>
+
+         	<div class="desc">
+         	<b class="mb-4">FAQs</b><br>
+         	<b>What happens when I update my email address (or mobile number)?</b>
+         	<p>Your login email id (or mobile number) changes, likewise. You'll receive all your account related communication on your updated email address (or mobile number).</p>
+
+         	<b>When will my Flipkart account be updated with the new email address (or mobile number)?</b>
+         	<p>It happens as soon as you confirm the verification code sent to your email (or mobile) and save the changes.</p>
+
+         	<b>What happens to my existing Flipkart account when I update my email address (or mobile number)?</b>
+         	<p>Updating your email address (or mobile number) doesn't invalidate your account. Your account remains fully functional. You'll continue seeing your Order history, saved information and personal details.</p>
+
+         	<b>Does my Seller account get affected when I update my email address?</b>
+         	<p>Flipkart has a 'single sign-on' policy. Any changes will reflect in your Seller account also.</p>
+         	</div>
+
+         	<a href="#">Deactive Account</a>
+         </div>
+      	</div> 
+      </div>
+     </div>
+		 
+	</div>
+</section>
+</body>
+</html>

@@ -1,0 +1,52 @@
+*{padding: 0px; margin: 0px; box-sizing: border-box; font-family:sans-serif;}
+.bgcolor{background-color:#2874F0;}
+.boxContainer{width: 30rem; height: 35px; border: 1px solid #fff; padding: 0px 10px; box-shadow:2px 3px 5px grey;}
+.elememtsContainer {width:100%; height:100%; vertical-align: middle;}
+.search {border:none; height: 100%; width: 100%; padding:0px 5px; font-size: 15px; color:black; font-weight: 500;}
+.search:focus{outline:none;}
+.seicon{font-size: 10; color:#fff; text-align: center;}
+.Ufont{color: white; font-weight: bold;}	
+.seicon:hover{color:black;}
+.iconcen{margin-top: 2px;}
+.menu2dropdown {width: 100%; height: 40px; background: #fff; box-shadow:2px 1px 8px grey;}
+.menu2dropdown table {margin-left: 80px;}
+.Firtdv {width:90%; height: 300px; background: #fff; margin-top: 10px; box-shadow:1px 1px 5px grey; }
+.fullbg {background: #F1F3F6; padding-top: 50px;}
+.Sectdv {width:90%; height: 250px; background: #fff; margin-top: 50px; padding-top:35px; margin-bottom:50px; box-shadow:1px 1px 5px grey;}
+.Dwn {padding: 13px; border: 1px solid #2874F0; font-size: 15px;}
+.progresstrack li {display: inline-block; width: 83px; color:#26A541;}
+.progresstrack li .material-icons::after { content:''; background: #26A541; height: 5px; width: 150px; display: block; position: absolute;}
+.progresstrack li:last-child .material-icons::after {width:25px;}
+
+.Secpdv {width:90%; height: 150px; background: #fff; margin-top: 50px; padding-top:35px; margin-bottom:50px;}
+.Ordersdiv {background: #F1F3F6; padding-top: 30px;}
+.traveldiv {background: #fff; width: 350px; height: 50px; display: flex; justify-content:space-between; align-items: center;}
+.flgt {background: blue; width:50px; height:50px; text-align: center; padding-top: 12px; border-radius: 50%; margin-left: 30px;}
+.aar {width:50px; height:50px; margin-left: 70px;}
+
+
+
+/* -----------------Dekstop and laptopes --------------------- */
+              @media (min-width: 1024px){
+                  
+        
+              }
+
+                /* ----------------- Tablates --------------------- */
+               @media (min-width: 769px) and (max-width: 1023px){
+                  
+                  
+               }
+
+              /*--------------------- Mobile Phones----------------------------*/
+			@media (max-width: 768px){
+              .menu2dropdown {display: none;}
+              .Secpdv {height: 450px;}
+              .Firtdv {height: 38rem; width:400px!important; margin-top: 0px!important;}
+              .Sectdv {height: 45rem; width:400px!important;}
+              .progresstrack {margin-top: 15px;}
+
+
+			}
+
+			@media (max-width: 468px){}

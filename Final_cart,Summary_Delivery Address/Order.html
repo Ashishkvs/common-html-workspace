@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Order Page</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<!-- Material Icon -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet">
+			<!-- jQuery library -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<!-- Popper JS -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+			<!-- Latest compiled JavaScript -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+			<style type="text/css" media="screen">
+				.bgcolor{background-color:#2874F0;}
+				.searchbar{max-width: 564px;
+				width: 100%;
+				display: inline-block;
+				box-shadow: 0 2px 4px 0 rgba(0,0,0,.23);}
+				.Ufont{color: white;
+				font-weight: bold;}
+				.Bgorders {min-width: 978px;
+			max-width: 1680px;
+			width: 100%;
+			margin: 0px auto;
+			overflow: hidden;
+			}
+			.orlist{margin-left: 130px; }
+			.Fullbg {background:#F1F3F6;}
+			
+			
+			@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+			* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Mulish', sans-serif; } :root { --text-clr: #4f4f4f; }
+			p { color: #6c757d; }
+			a { text-decoration: none; color: var(--text-clr); }
+			a:hover { text-decoration: none; color:black; }
+			h2 { color: var(--text-clr); font-size: 1.5rem; }
+			.main_cart { background: #fff; } .card { border: none; }
+			.product_img img { min-width: 200px; max-height: 200px; }
+			.product_name { color: black; font-size: 1.4rem; text-transform: capitalize; font-weight: 500; }
+			.card-title p { font-size: 0.9rem; font-weight: 500; }
+			.remove-and-wish p { font-size: 0.8rem; margin-bottom: 0; }
+			.price-money h3 { font-size: 1rem; font-weight: 600; }
+			.set_quantity { position: relative; }
+			.set_quantity::after { content: "(Note, 1 piece)"; width: auto; height: auto; text-align: center; position: absolute; bottom: -20px; right: 1.5rem; font-size: 0.8rem; }
+			.page-link { line-height: 16px; width: 45px; font-size: 1rem; display: flex; justify-content: center; align-items: center; color: #495057; }
+			.page-item input { line-height: 22px; padding: 3px; font-size: 15px; display: flex; justify-content: center; align-items: center; text-align: center; }
+			.page-link:hover { text-decoration: none; color: #495057; outline: none !important; }
+			.page-link:focus { box-shadow: none; }
+			.price_indiv p { font-size: 1.1rem; } .heart:hover { color: red; }
+			.pfont {font-size: 0.9rem;}
+
+             /* -----------------Dekstop and laptopes --------------------- */
+              @media (min-width: 1024px){
+                  .orlist {margin-left:30px; margin-right:30px;
+              	  overflow: hidden;}
+                 .font-weight-bold{width: 22rem;}
+                 .itmcard {padding-left: 0px;}
+                 .itimg {display: block;}
+                 .card{width:40rem;}
+        
+              }
+
+                /* ----------------- Tablates --------------------- */
+               @media (min-width: 769px) and (max-width: 1023px){
+                  
+                  .orlist {margin-left:30px; margin-right:30px;
+              	  overflow: hidden;}
+                 .font-weight-bold{width: 22rem;}
+                 .itmcard {padding-left: 0px;}
+                 .itimg {display: block;}
+                 .card{width:40rem;}
+               }
+
+              /*--------------------- Mobile Phones----------------------------*/
+			@media (max-width: 768px){
+              .orlist {margin-left:10px; margin-right:10px;
+              	overflow: hidden;}
+              .font-weight-bold{width: 22rem;}
+              .itmcard {padding-left: 0px;}
+              .itimg {display: block;}
+              .card{width:25rem;}
+			}
+
+			@media (max-width: 468px){}
+			</style>
+		</head>
+		<body>
+			<nav class="navbar navbar-expand-lg navbar-light bgcolor sticky-top">
+				<div class="container">
+					<a class="navbar-brand" href="#"><img src="https://static.wixstatic.com/media/c7de0c_4e9f90a28ec8474bbe21d0c8ad56f292~mv2.png/v1/fill/w_600%2Ch_226%2Cal_c%2Cq_90/file.jpg" alt="Flipkart" style="height:50px; width:150px"></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<form class="searchbar">
+							<input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+							<!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+						</form>
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<span class="Ufont">User</span>
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#"><i class="material-icons">account_circle</i>My Profile</a>
+									<a class="dropdown-item" href="#"><i class="material-icons">production_quantity_limits</i>Orders</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item " href="#"><i class="material-icons md-36">power_settings_new</i>Logout</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<DIV class="Fullbg">
+				<h2 class="pt-2 pl-5 font-weight-bold"></h2>
+				<div class="orlist">
+					<div class="row container pt-3">
+						<div class="card Bgorders">
+							<div class="card-body">
+								<h5 class="card-title">Login</h5>
+								<p class="card-text"><a class="d-flex justify-content-between" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+									Login And Procees Next Step
+									<span><i class="material-icons md-48">arrow_drop_down_circle</i></span>
+								</a>
+								<div class="collapse" id="collapseExample">
+									<div class="mt-3">
+										<input type="text" name="" id="discount_code1" class="form-control font-weight-bold" placeholder="Enter Mobile Number">
+									</div>
+									<button class="btn btn-primary btn-sm mt-3">Send OTP</button>
+								</div></p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="row container pt-2">
+						<div class="card Bgorders">
+							<div class="card-body">
+								<h5 class="card-title">Delivery Address</h5>
+								<p class="card-text"><a class="d-flex justify-content-between" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+									Enter Full Delivery address and Proceed Next step
+									<span><i class="material-icons md-48">arrow_drop_down_circle</i></span>
+								</a>
+								<div class="collapse" id="collapseExample1">
+									<div class="mt-3">
+										<input type="text" name="" id="discount_code1" class="form-control font-weight-bold" placeholder="Name">
+									</div>
+									<div class="mt-3">
+										<input type="text" name="" id="discount_code1" class="form-control font-weight-bold" placeholder="Area/street">
+									</div>
+									<div class="mt-3">
+										<input type="text" name="" id="discount_code1" class="form-control font-weight-bold" placeholder="City">
+									</div>
+									<div class="mt-3">
+										<input type="text" name="" id="discount_code1" class="form-control font-weight-bold" placeholder="State">
+									</div>
+									<div class="mt-3">
+										<input type="text" name="" id="discount_code1" class="form-control font-weight-bold" placeholder="Pincode">
+									</div>
+									<div class="mt-3">
+										<input type="text" name="" id="discount_code1" class="form-control font-weight-bold" placeholder="Alternative phone number">
+									</div>
+									<button class="btn btn-primary btn-sm mt-3">Add address</button>
+								</div></p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="row container pt-2">
+						<div class="card Bgorders">
+							<div class="card-body">
+								<h5 class="card-title"> Order Summary</h5>
+								<p class="card-text"><a class="d-flex justify-content-between" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+									Enter Full Delivery address and Proceed Next step
+									<span><i class="material-icons md-48">arrow_drop_down_circle</i></span>
+								</a>
+								<div class="collapse" id="collapseExample2">
+									<div class="mt-3">
+										<div class="col-md-12 col-lg-12 col-12 main_cart mb-lg-0 mb-5 shadow">
+											<div class="card itmcard p-4">
+												<h2 class="py-4 font-weight-bold">Items</h2>
+												<div class="row">
+													<!-- cart images div -->
+													<div class="col-md-5 col-11 mx-auto bg-light d-flex justify-content-center align-items-center itimg shadow product_img">
+														<img src="https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/1280x1280/products/2111/9917/COODRONY-Men-Shirt-Mens-Business-Casual-Shirts-2017-New-Arrival-Men-Famous-Brand-Clothing-Plaid-Long__49766.1574660749.jpg?c=2" class="img-fluid " alt="cart img">
+													</div>
+													<!-- cart product details -->
+													<div class="col-md-7 col-11 mx-auto px-4 mt-2">
+														<div class="row">
+															<!-- product name  -->
+															<div class="col-6 card-title">
+																<h1 class="mb-4 product_name">Black Zara Shirt</h1>
+																<p class="mb-2">SHIRT - Black</p>
+																<p class="mb-2">COLOR: Black</p>
+																<p class="mb-3">SIZE: M</p>
+															</div>
+														</div>
+													</div>
+												</div></p>
+												<a href="#" class="btn btn-primary">Confirm</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<div class="container-fluid">
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					<div class="mt-5  p-5 ">
+						<div class="pt-5">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</DIV>
+</body>
+</html>

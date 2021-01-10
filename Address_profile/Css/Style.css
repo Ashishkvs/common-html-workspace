@@ -1,0 +1,61 @@
+*{padding: 0px; margin: 0px; box-sizing: border-box; font-family:sans-serif;}
+.bgcolor{background-color:#2874F0;}
+.boxContainer{width: 30rem; height: 35px; border: 1px solid #fff; padding: 0px 10px; box-shadow:2px 3px 5px grey;}
+.elememtsContainer {width:100%; height:100%; vertical-align: middle;}
+.search {border:none; height: 100%; width: 100%; padding:0px 5px; font-size: 15px; color:black; font-weight: 500;}
+.search:focus{outline:none;}
+.seicon{font-size: 10; color:#fff; text-align: center;}
+.Ufont{color: white; font-weight: bold;}	
+.seicon:hover{color:black;}
+.iconcen{margin-top: 2px;}
+.menu2dropdown {width: 100%; height: 40px; background: #fff; box-shadow:2px 1px 8px grey;}
+.menu2dropdown table {margin-left: 80px;}
+.Mainbg {background:#F1F3F6; height:70rem; width: 100%;}
+.Maindiv {width:90%; margin-left: 100px;}
+.weluser {width:300px; background:#fff; height:75px;  margin-top:16px; padding:12px;}
+.flk {display:flex;}
+.usrn {margin-left: 60px; margin-bottom:30px;}
+.weluser .usn {margin-left: 15px;}
+.blku {display: block!important;}
+.blku p {margin-bottom: 0px; margin-left:15px;}
+.blku b {margin-bottom: 0px; margin-left:15px;}
+.secdivright{width:50rem; background:#fff; padding-left:50px; margin-top:16px; padding-top:30px; height: 60rem; box-shadow: -5px 5px 8px -6px rgba(0,0,0,0.45);}
+.lists {background: #fff; height: 44rem; margin-top: 15px; padding-top:25px; width:300px; display:block; box-shadow: -5px 5px 8px -6px rgba(0,0,0,0.45);}
+.blk1 i {font-size: 25px; color: #2874F1; position: absolute; top:130px; left:25px;}
+.blk2 i {font-size: 30px; color: #2874F1; position: absolute; top:180px; left:25px;}
+.blk3 i {font-size: 30px; color: #2874F1; position: absolute; top:353px; left:25px;}
+.blk4 i {font-size: 30px; color: #2874F1; position: absolute; top:490px; left:25px;}
+.blk5 i {font-size: 30px; color: #2874F1; position: absolute; top:549px; left:25px;}
+.blk6 i {font-size: 30px; color: #2874F1; position: absolute; top:753px; left:25px;}
+.redf {color:#878787!important;}
+.usernm {display:flex; margin-bottom: 20px;}
+.inp {height:45px; width:14rem; padding-left: 10px; }
+.em {display: flex; margin-top:25px; margin-bottom: 25px;}
+.desc { margin-top: 30px; }
+.card {width:36rem;margin-top: 50px;}
+.fulladd {border: 1px solid grey; padding:20px; width:45rem;}
+
+/* -----------------Dekstop and laptopes --------------------- */
+              @media (min-width: 1024px){
+                  
+        
+              }
+
+                /* ----------------- Tablates --------------------- */
+               @media (min-width: 769px) and (max-width: 1023px){
+                  
+                  
+               }
+
+              /*--------------------- Mobile Phones----------------------------*/
+			@media (max-width: 768px){
+              .menu2dropdown {display: none;}
+              ..em {display: block; margin-top:0px; margin-bottom: 0px;}
+              .secdivright{width:20rem; height: 85rem;}
+              .inp {margin-left:15px; margin-top:10px;}
+              .edit {margin-right:30px;}
+              .fulladd {border: 1px solid grey; padding:20px; width:15rem;}
+
+			}
+
+			@media (max-width: 468px){}
