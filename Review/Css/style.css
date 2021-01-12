@@ -1,0 +1,47 @@
+*{padding: 0px; margin: 0px; box-sizing: border-box; font-family:font-family: Roboto,Arial,sans-serif;}
+.bgcolor{background-color:#2874F0;}
+.boxContainer{width: 30rem; height: 35px; border: 1px solid #fff; padding: 0px 10px; box-shadow:2px 3px 5px grey;}
+.elememtsContainer {width:100%; height:100%; vertical-align: middle;}
+.search {border:none; height: 100%; width: 100%; padding:0px 5px; font-size: 15px; color:black; font-weight: 500;}
+.search:focus{outline:none;}
+.seicon{font-size: 10; color:#fff; text-align: center;}
+.Ufont{color: white; font-weight: bold;}	
+.seicon:hover{color:black;}
+.iconcen{margin-top: 2px;}
+.menu2dropdown {width: 100%; height: 80px; background: #fff; box-shadow:2px 1px 8px grey; display:flex;} 
+.menu2dropdown p{float:right; margin-left:50rem; padding-top:20px;}
+.menu2dropdown img{float:right; padding-left:10px;}
+.Mainbg {background:#F1F3F6; height:40rem; width: 100%; padding-top:15px;}
+.Maindiv {width:94%; margin-left: 55px;}
+.secdivright{height: 38rem; background:#fff; box-shadow: 6px -7px 18px -1px rgba(0,0,0,0.15); padding:20px;}
+.firstdiv {height:30rem; background: #fff;}
+.whtsrv {padding-top:20px;}
+.secdivright i {color: #EEEEEE; padding-right:8px;}
+.textarea {width:100%; height:12rem; padding:10px; border:1px solid grey; border-radius:5px;}
+.ttitleinput {width:100%; height:4rem; padding:10px; border:1px solid grey; border-radius:5px; margin-bottom:20px;}
+.textarea:focus {outline-color:#2874F0;}
+.ttitleinput:focus {outline-color:#2874F0;}
+.submitbtn {background-color:#FB641B!important; color:#fff!important; margin-top:15px; float: right;}
+.rwprc {float: right; display:flex; justify-content: center; align-items:center;}
+.rwprc p {padding-bottom: 50px;}
+
+/* -----------------Dekstop and laptopes --------------------- */
+              @media (min-width: 1024px){
+                  
+        
+              }
+
+                /* ----------------- Tablates --------------------- */
+               @media (min-width: 769px) and (max-width: 1023px){
+                  
+                  
+               }
+
+              /*--------------------- Mobile Phones----------------------------*/
+			@media (max-width: 768px){
+              .menu2dropdown {display: none;}
+              .secdivright{width:20rem; height: 85rem;}
+              .Maindiv {width:85%; margin-left: 40px;}
+			}
+
+			@media (max-width: 468px){}

@@ -13,6 +13,10 @@
 .Mainbg {background:#F1F3F6; height:70rem; width: 100%;}
 .Maindiv {width:90%; margin-left: 100px;}
 .weluser {width:300px; background:#fff; height:75px;  margin-top:16px; padding:12px;}
+a:hover {text-decoration: none!important;}
+.ord :hover{color:#2874F1!important;}
+.ac1 {color:grey;}
+.ac1 :hover {background-color:#F5FAFF; color:#2874F1;}
 .flk {display:flex;}
 .usrn {margin-left: 60px; margin-bottom:30px;}
 .weluser .usn {margin-left: 15px;}
@@ -32,8 +36,14 @@
 .inp {height:45px; width:14rem; padding-left: 10px; }
 .em {display: flex; margin-top:25px; margin-bottom: 25px;}
 .desc { margin-top: 30px; }
-.card {width:36rem;margin-top: 50px;}
+.card {width:45rem;margin-top: 50px;}
 .fulladd {border: 1px solid grey; padding:20px; width:45rem;}
+.addcardbg {background: #F5FAFF!important; width:45rem; overflow: hidden;}
+.addin input {width:280px; height: 3.5rem; padding:20px; outline-color:#2874F1;}
+.blokrow {display:flex;}
+.addinput {width:36.1rem!important; height:6rem!important; padding-top:0px!important;}
+select {width:280px; height: 3.5rem; padding-left:10px;}
+.homerad {width:1rem!important; height:1rem!important;}
 
 /* -----------------Dekstop and laptopes --------------------- */
               @media (min-width: 1024px){
@@ -55,6 +65,14 @@
               .inp {margin-left:15px; margin-top:10px;}
               .edit {margin-right:30px;}
               .fulladd {border: 1px solid grey; padding:20px; width:15rem;}
+              .addinput {width:200px!important; height:6rem!important; padding-top:0px!important;}
+              .blokrow {display: block;}
+              .addin input {width:200px; height: 2.5rem; padding:20px; outline-color:#2874F1;}
+              .addcardbg {background: #F5FAFF!important; width:250px; overflow: hidden;}
+              select {width:200px; height: 2.5rem; padding-left:10px;}
+              .secdivright{width:350px;}
+              .lists {width:350px;}
+              .weluser {width: 350px;}
 
 			}
 
