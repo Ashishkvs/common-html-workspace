@@ -1,0 +1,23 @@
+let suggestions = [
+    "sds",
+    "fashion",
+    "boys fashion",
+    "shopping",
+    "adaptor",
+    "drill",
+    "sds fashion for boys",
+    "sds fashion for girls",
+    "sds shopping",
+    "sds plus drill bit",
+    "Mens Jeans",
+    "Shirts",
+    "Electronic Machines",
+    "Books",
+    "Laptop",
+    "Laptop i5 10th gen",
+    "Laptop Skin",
+    "Laptop Sleeve",
+    "Laptop stand",
+    "Laptop adaptor",
+
+]

@@ -1,0 +1,65 @@
+*{padding: 0px; margin: 0px; box-sizing: border-box; font-family:font-family: Roboto,Arial,sans-serif;}
+.Mainbg {background:#F1F3F6; height:32rem; width: 100%; padding-top:15px;}
+.Maindiv {width:85%; margin-left: 55px;}
+.secdivright{height: 32rem; background:#fff; box-shadow: 6px -7px 18px -1px rgba(0,0,0,0.15);}
+.firstdiv {height:32rem; background: #fff;}
+.allch {padding-top:25px; padding-bottom:3px;}
+.fldiv {display: flex;}
+.fldiv img {width:55px; height:55px; border-radius:50%;}
+.chatbox {background-color:#F1F3F6; height:100px; padding:15px; position:relative; margin-bottom:10px;}
+.chatbox p {font-size:14px; color:black;}
+.chatbox1 {background-color:#fff; height:100px; padding:15px; position:relative; margin-bottom:10px;}
+.chatbox1 p {font-size:14px; color:black;}
+.chatbox :hover {cursor:pointer;}
+.chatbox1 :hover {cursor:pointer;}
+.date {margin-left: 190px;}
+.ordno {position:absolute; top:32px; left:79px;}
+.solodec {position:absolute; top:52px; left:79px; font-size:12px!important; color:grey;}
+.chhead {padding-top:25px; padding-bottom:3px; padding-left:10px; width:100%; display:flex;}
+.chhead img {border-radius:50%;}
+.middldiv {background-color:#F1F1F1; height:22rem; overflow:hidden; overflow-y:scroll; display:block;}
+.typing {width:665px; height:65px; position:fixed; box-shadow: 10px 10px 21px 20px rgba(0,0,0,0.19); display:flex; position:relative;}
+.typing input {width:520px; height:40px; font-size:18px; border:none; position:absolute; left:50px; top:10px;}
+.typing input:focus {outline:none;}
+.firsti {color:#2874F0; width:50px; height:50px; position:absolute; left:10px; top:15px;}
+.seci {color:#2874F0; width:50px; height:50px; position:absolute; left:38rem; top:15px;}
+.chtdiv {width:300px; background:#fff; padding:20px; border-radius:25px; border-top-left-radius: 0px;}
+.chtdiv2 {width:300px; background:#fff; padding:20px; border-radius:25px; border-top-left-radius: 0px; float:right; margin-right:25px; margin-top:1px;}
+.chtdiv3 {width:300px; margin-top:65px; background:#fff; padding:20px; border-radius:25px; border-top-left-radius: 0px;}
+.chtdiv4 {width:300px; margin-top:110px; float:right; background:#fff; padding:20px; border-radius:25px; border-top-left-radius: 0px;}
+.chtdiv5 {width:300px; margin-top:10px; float:left; background:#fff; padding:20px; border-radius:25px; border-top-left-radius: 0px;}
+.ddiv {width:100%; text-align:center; align-items:center; position:sticky;}
+.dchat {width:150px;  background:#fff; border-radius:4px; margin-left:220px;}
+/* -----------------Dekstop and laptopes --------------------- */
+              @media (min-width: 1024px){
+                  
+        
+              }
+
+                /* ----------------- Tablates --------------------- */
+               @media (min-width: 769px) and (max-width: 1023px){
+                  
+                  
+               }
+
+              /*--------------------- Mobile Phones----------------------------*/
+			@media (max-width: 768px){
+              .menu2dropdown {display: none;}
+              .secdivright{width:20rem; height: 85rem;}
+              .Maindiv {width:85%; margin-left: 40px;}
+              .chatbox .date {display:none;}
+              .chatbox1 .date {display:none;}
+              .Mainbg {height:67rem;}
+              .secdivright {margin-top:20px; height:33rem; width:100%;}
+              .typing {width:410px;}
+              .typing input {width:300px; height:40px; font-size:15px; border:none; position:absolute; left:50px; top:10px;}
+              .seci {position:absolute; left:23rem; top:15px;}
+              .dchat {width:150px; font-size:12px; background:#fff; border-radius:4px; margin-left:95px;}
+              .chtdiv2 {padding:20px; border-radius:15px; border-top-right-radius: 0px; float:right; margin-right:25px; margin-top:1px;}
+              .chtdiv3 {margin-top:85px; background:#fff; padding:20px; border-radius:15px; border-top-left-radius: 0px;}
+              .chtdiv4 {margin-top:5px; float:right; background:#fff; padding:20px; border-radius:15px; border-top-right-radius: 0px;}
+              .chtdiv5 {margin-top:30px; float:left; background:#fff; padding:20px; border-radius:15px; border-top-left-radius: 0px; margin-bottom:20px;}
+              }
+
+
+			@media (max-width: 468px){}

@@ -1,0 +1,65 @@
+*{padding: 0px; margin: 0px; box-sizing: border-box; font-family:sans-serif;}
+.menubaar {display:flex; justify-content:space-between; margin-bottom:10px; width:100%; height:130px; padding:30px 70px; background-color:#fff; box-shadow:2px 1px 2px grey;}
+.menubaar li {list-style:none;}
+.menubaar li a{text-decoration:none; color:black; font-weight:bold;}
+.menubaar li a:hover{color:#2874F0;}
+.menubaar li img {width:55px; height:55px; padding-left:0px;}
+.secmenup p {text-align:center; font-size:14px;}
+section {background-color:#F1F3F6; height:100rem; width:100%;}
+.slidebar {box-shadow:2px 1px 2px grey; width:99%; height:222px; background-color:#fff; margin-left:8px; margin-bottom:10px;}
+.firstrowpr {height:350px; width:77%; margin-left:8px; background-color:#fff; padding:20px;}
+.poster {width:21%; padding-left:30px; height:350px; margin-left:8px; background-color:#fff;}
+.firstrow {display:flex;}
+.carousel-inner img {width: 100%; height: 100%;}
+.prebtn {background-color:black; width:46px!important; height:104px!important; margin-top:45px!important; opacity:1!important;}
+.nextbtn {background-color:black; width:46px!important; height:104px!important; margin-top:45px!important; opacity:1!important;}
+.productul {line-height:1; display:flex; justify-content:space-around; list-style:none;}
+.prtitle {padding-top:15px; font-weight:bold; font-size:15px; text-align:center;} 
+.productul a:hover{text-decoration:none;}
+.discountp {color:#388E3C; font-size:15px; text-align:center;}
+.prcate {color:#979797; font-size:15px; text-align:center;}
+.imgposterr{width:98.5%; height:235px; margin-left:10px; list-style:none; display:flex; justify-content:space-around; margin-top:15px; }
+.Secondrow {display:flex;}
+.Secondrowpr {height:350px; width:98%; margin-left:8px; background-color:#fff; padding:20px;}
+.imgdiv {width:150px; height:150px; align-items:center; display:flex; justify-content:center;}
+.imgdiv img {transition:all 0.2s linear; }
+.centtpicon {display:flex; align-items:center; justify-content:center;}
+.lastdiv {background:#fff; border-top:1px solid #cccc; padding:50px 30px 10px 30px; margin-top:70px; width:100%; height:50rem;}
+.productul li:hover .imgdiv img{transform:scale(1.2);}
+.slidimg {width:100%!important; height:223px!important;}
+
+
+/* -----------------Dekstop and laptopes --------------------- */
+              @media (min-width: 1024px){
+                  
+        
+              }
+
+                /* ----------------- Tablates --------------------- */
+               @media (min-width: 769px) and (max-width: 1023px){
+                  
+                  
+               }
+
+              /*--------------------- Mobile Phones----------------------------*/
+			@media (max-width: 768px){
+              .menubaar {display:none;}
+              .slidimg {height: 223px!important;}
+              .firstrow {display:block;}
+              .Secondrow {display:block;}
+              .Secondrowpr{height:90rem; width:98%; background-color:#fff; padding:20px;}
+              #timing {}
+              .firstrowpr {height:65rem; width:98%; background-color:#fff; padding:20px;}
+              .hdpr {font-size:18px; font-weight:bold; padding-top:6px;}
+              .productul {display:block; padding-left:50px;}
+              .poster {margin-top:20px; margin-left:100px;}
+              .prli {display:flex; margin-top:40px;}
+              .prdet {display:block; margin-left:40px}
+              .lastdiv {margin-top:50px;}
+              section {height:240rem;}
+              .imgposterr{width:98.5%; height:45rem; margin-left:30px; list-style:none; display:block; margin-top:15px; }
+              .imgposterr li {margin-top:10px;}
+              }
+
+
+			@media (max-width: 468px){}

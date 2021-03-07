@@ -1,0 +1,84 @@
+*{padding: 0px; margin: 0px; box-sizing: border-box; font-family:font-family: Roboto,Arial,sans-serif;}
+.maindiv{background-color:#fff; width:100%; height:100vh; padding-top:20px;}
+.middleimg {max-height:500px; margin-left:15px; width:450px; margin-top:140px;}
+.allimg {padding-left: 10px; list-style: none;}
+.allimg li {padding-bottom:7px; width:60px; height:75px; overflow:hidden; margin: 5px; border: 1px solid rgba(0, 0, 0, .2); }
+.allimg li img {width:100%; height:100%;}
+.allimg li:hover {border:2px solid #2874F0;}
+.firstbg {background-color: #F1F3F6; padding-top:3px;}
+.firstdivfl {display:flex;}
+.btngroup {display:flex; justify-content:space-around; width:530px; padding:10px;}
+.btngroup a {color:#fff; font-weight:bold;}
+.btngroup a:hover {color:#fff; text-decoration:none;}
+.cartbtn {width:250px; padding:15px; background-color:#FF9F00; margin-right:10px; border-radius:5px; text-align:center;}
+.buybtn {width:250px; padding:15px; background-color:#FB641B; border-radius:5px; text-align:center;}
+.rightcontent {display:block; margin-top:50px; overflow:hidden;}
+.brandcol {color:#CCCCCC;}
+.sp {color:#26A541; font-weight:bold;}
+.percol {color:#26A541;}
+.fontcol {font-size:15px;}
+.ratfont {color:#fff; position: relative; background-color:#26A541; border-radius:20px; width:60px; height:25px; text-align:center;}
+.ratfont i {position:absolute; left:38px; top:7px; font-size:14px; }
+.ratfont p {font-size:18px; font-weight:bold;}
+.pincode {padding-left:10px; border:2px solid #CCCCCC; border-radius:5px;}
+.pincode:focus{outline-color: #2874F0!important; }
+.pincoded {width:300px; float:left;}
+.secallimg {padding-left: 10px; list-style: none; display:flex;}
+.secallimg li {padding-bottom:7px; width:60px; height:75px; margin: 5px; border: 1px solid rgba(0, 0, 0, .2); }
+.secallimg li img {width:100%; height:100%;}
+.secallimg li:hover {border:2px solid #2874F0;}
+.sizeb {padding-top:10px; font-size:20px!important; color:grey; font-weight:bold;}
+.sizeb:hover{text-decoration:none; color:grey;}
+.Sizebox {padding-left: 10px; list-style: none; display:flex;}
+.Sizebox li {width:50px; height:42px; margin: 5px; align-items:center; text-align:center; border: 1px solid rgba(0, 0, 0, .2); }
+.prdetails {color:#212121;}
+.prdetails:hover {color:#212121; text-decoration:none;}
+.deticon {padding-left:30rem;}
+.leftprdet {color:#cccc; font-weight:bold;}
+.addcardbg {border:none!important;}
+.rightprdt {padding-left:200px;}
+.likebox {padding-left:50px;}
+.rightmaindiv {overflow:hidden; overflow-y:scroll; height:95vh; background-color:#fff;}
+.secbrand {color:#cccc; display:none;}
+.custimg li {margin:5px;}
+.heartdiv {background:black; position:relative;}
+.fa-heart {color:#cccc; text-align:center; padding-top:10px; cursor:pointer; /* background:black; */ box-shadow: 13px 5px 28px -8px rgba(0,0,0,0.51); position:absolute; top:2rem; left: 25rem; border-radius:50%; width:50px; height:50px;}
+/* //F1F3F6 */
+
+
+/* -----------------Dekstop and laptopes --------------------- */
+              @media (min-width: 1024px){
+                  
+        
+              }
+
+                /* ----------------- Tablates --------------------- */
+               @media (min-width: 769px) and (max-width: 1023px){
+                  
+                  
+               }
+
+              /*--------------------- Mobile Phones----------------------------*/
+			@media (max-width: 768px){
+              
+               .knm {display:none;}
+               .rightmaindiv {overflow:auto; overflow-y:hidden; height:100%;}
+               .allimg li {padding-bottom:7px; width:50px; height:55px; overflow:hidden; margin: 5px; border: 1px solid rgba(0, 0, 0, .2); }
+			   .imgBox img {width:360px; margin-top:70px;}
+			   .btngroup {width:450px; margin-left:10px; padding:10px;}
+			   .rightcontent {margin-top:10px; margin-left:15px;}
+			   .pincoded {margin-left:0px!important;}
+			   .secul {display:block;}
+			   .deticon {padding-left:16rem;}
+			   .fullreviw {display:inline-block; justify-content:space-between;}
+			   .dtrat {display:none;}
+			   .questionser {margin-top:0px;}
+			   .secallimg {padding-left:10rem; display:flex;}
+			   .brandcol {margin-top:}
+			   .secbrand {display:inline-block;}
+			   .secul .colj {display:none;}
+			   .fa-heart {left:20rem; top:1rem;}
+
+			}
+
+			@media (max-width: 468px){}

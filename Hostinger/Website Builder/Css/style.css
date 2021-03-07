@@ -1,0 +1,237 @@
+.Onlinestoresec {
+	height:90vh;
+	padding-top:7rem;
+	background: linear-gradient(155deg, #ff9a3c 55%, #fff 0%);
+}
+
+.startbtn {
+	background-color:#2F1C6A;
+	color:#fff;
+	padding:15px 75px;
+	margin-top:30px;
+	font-weight:500;
+	border-radius:30px;
+}
+
+.startbtn:hover{
+	color:#fff;
+	text-decoration:none;
+}
+
+.colhed {
+	color:#2F1C6A;
+}
+
+.frstseched {
+	margin-top:3rem;
+}
+
+.hedimg img{
+    border-radius:8px;
+}
+
+
+.hstno {
+	font-weight:800;
+	font-size:55px;
+	text-align:left;
+	color:#ffaf69;
+}
+
+.emailstp {
+	margin-top:4em;
+}
+
+.workshpln {
+	padding-top:5rem;
+}
+
+.fcard {
+	-webkit-box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    padding:175px 40px;
+    margin-bottom:3rem;
+}
+
+.scard {
+	-webkit-box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    padding:50px 40px;
+    margin-bottom:3rem;
+}
+
+.secp {
+	font-weight:700;
+	font-size:1.5rem;
+	color:#2F1C6A;
+	margin-top:10px;
+}
+
+.carddiv {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.sech {
+	font-size:3rem;
+	font-weight:700;
+	color:#2F1C6A;
+	padding-top:10px;
+}
+
+.prslog {
+	font-size:15px;
+	font-weight:600;
+	text-align:center;
+	color:grey;
+	font-weight:400;
+}
+
+.secmonth {
+	font-size:17px;
+	font-weight:700;
+	color:#2F1C6A;
+	margin-top:40px;
+}
+
+.mailslog {
+	font-weight:500;
+}
+
+.Cartbtn {
+	background-color:#eb8212;
+	color:#fff;
+	padding:10px 40px;
+	margin-top:3rem;
+	font-weight:500;
+	border-radius:30px;
+}
+
+.Cartbtn:hover{
+	color:#fff;
+	text-decoration:none;
+}
+
+.crtspace {
+	padding:95px 0px;
+}
+
+.discont {
+	background-color:#eb8212;
+	color:#fff;
+	padding:5px 10px;
+	border-radius:30px;
+	margin-left:10px;
+}
+
+.aboutemail {
+	margin-top:3rem;
+}
+
+.startno {
+	font-weight:700;
+	color:#2F1C6A;
+	display:flex;
+	align-items:center;
+	/* justify-content:center; */
+}
+
+.startno:hover {
+	color:#2F1C6A;
+	text-decoration:none;
+}
+
+.strtp {
+	margin-top:12px;
+	padding-right:10px;
+	text-decoration:underline;
+}
+.abtfirst {
+	padding-top:9rem;
+}
+
+.esygrthsec {
+	background-color:#eb8212;
+}
+
+.imgpfbc {
+	background-color:#F4F7FC;
+}
+
+.askqssec {
+	margin-top:6rem;
+	margin-bottom:6rem;
+}
+
+.colla {
+	color:#2F1C6A;
+}
+
+.colla:hover{
+	text-decoration:none;
+	color:#2F1C6A;
+}
+
+.addcardbg {
+	box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+
+.fullpgim {
+	margin-left:-15px;
+	height:400px;
+}
+.imgdiv {
+	overflow:hidden;
+}
+.ch {
+	text-align:left;
+}
+
+
+
+ /* ----------------- Mobiles --------------------- */
+               @media (max-width: 768px){
+               	  .Onlinestoresec {
+               	  	text-align:center;
+               	  }
+               	  .hedimg img{
+               	  	width:450px;
+               	  	}
+               	  .frstseched {
+	                margin-top:0rem;
+	                margin-bottom:30px;
+                    }	
+                  .startbtn {
+	                padding:16px 80px;
+                  }
+               	  .fcard img {
+               	  	width:300px;
+               	  }
+
+               	  .abtimg img{
+               	  	width:450px;
+               	  } 
+               	  .imgpfbc {
+               	  	margin-left:45px;
+               	  }
+               	  .imgpfbc img{
+               	  	width:350px;
+               	  } 
+               	  .workshpln {
+	                  margin-top:10rem;
+                  }
+                 .fullpgim {
+	                 height:250px;
+	                 width:550px!important;
+                  }
+               .imgdiv {
+	                overflow:hidden;
+                 } 
+                .emailstp {
+                	margin-top:150px;
+                }
+                .hstno, .ch{
+                	text-align:center;
+                } 
+               }

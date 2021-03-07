@@ -1,0 +1,563 @@
+*{padding: 0px; scroll-behavior:smooth; margin: 0px; box-sizing: border-box; font-family:font-family: Roboto,Arial,sans-serif;}
+.navbar {background-color:#99D6F2; /* padding-left:50px!important; */ }
+.logo {width:150px;}
+.login {
+	width:130px; 
+	height:40px; 
+	margin-left:20px;
+	border-radius:20px; 
+	padding-left:30px;
+	padding-top:5px;
+	text-decoration:none;
+	color:black;
+	border:1px solid black;}
+.country {color: black; margin-left:10px;}
+.country:hover{color: black; text-decoration:none;}
+.login:hover{color:black; text-decoration:none;}
+.navbar-nav li{padding-left:15px;}
+.dropdown-item {color:#2F1C6A!important;}
+.cnicon {font-size:20px!important;}
+.cart {
+	width:130px; 
+	height:40px; 
+	margin-left:18px; 
+	padding-top:5px;
+	text-decoration:none;
+	color:black;
+    font-size:19px;}
+
+.cart:hover{color:black; text-decoration:none;}	
+
+.frontview {min-height: 812px;background-color:#99D6F2;}
+.frontrow {min-height: 650px; 
+           border: 3px solid #fff;
+           border-radius: 20px;
+           width:65rem;
+           margin-left: 140px!important;
+           margin-top: 50px!important;
+          }
+.firstimg img {
+	width:260px!important;
+	height:330px!important;
+	position: absolute;
+    left:-23%;
+    top:15%;}
+
+.secimg img {
+	width:260px!important;
+	height:330px!important;
+	position: absolute;
+    left:21%;
+    top:37%;}
+
+.firsthed {
+	font-size: 2.5rem;
+    line-height: 1.1;
+    font-weight: 700;
+    text-align:center;} 
+
+.centerfrontdv {
+	padding-bottom: 40px!important;
+	padding-top: 40px!important;
+	color:#2F1C6A;
+	position:absolute;
+    max-width:70rem!important;}
+
+.upto {
+	font-weight:500;
+	text-align:center;
+	padding-top:10px;
+	margin-bottom: 0rem;}
+
+.discounth {
+	font-size: 4.5rem;
+    line-height: 1.1;
+    font-weight: 700;
+    text-align:center;}
+
+.detwp {
+	font-size: 1.5rem;
+    line-height: 1.1;
+    font-weight: 700;
+    text-align:center;
+    margin-top:25px;}
+
+.ssl {
+	text-align:center;
+    margin-top:20px;
+    font-size:1rem;
+    font-weight:500;}  
+
+.ssl1 {
+	text-align:center;
+    margin-top:20px;
+    font-size:1rem;
+    font-weight:500;}
+
+.tmsec {
+	display:flex;
+    padding:10px;
+    justify-content:center;
+    list-style:none;}  
+
+.tmfirst {
+	width:300px; 
+	margin-left:6rem;}  
+
+.tmbox {
+	width:70px; 
+	height:70px;
+    background-color:#fff; 
+    border-radius:12px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:10px; }       	                
+
+.strtbox {
+	cursor:pointer; 
+	margin-left:100px; 
+	background-color:#FC5185; 
+	display:flex; 
+	justify-content:center; 
+	align-items:center; 
+	width:300px; 
+	height:60px; 
+	border-radius:30px;}
+
+.strtnow {
+	color:#fff;
+    font-weight:700;}
+
+.strtnow:hover {
+	color:#fff; 
+	text-decoration:none;}
+
+.guaranty {
+	margin-left:140px; 
+	margin-top:20px;}
+
+.bransec {
+	padding:35px 130px;
+	margin-bottom:50px; 
+	width:100%;}
+
+.brndimg {
+	display:flex;
+    justify-content: space-around;
+    align-items:center; }
+
+
+/*  Search Domain Start */ 
+
+.serdm {
+	width:100%; 
+	height:400px; 
+	background-color:#FAFBFF; 
+	margin-bottom:10px;
+    padding-top:80px;}
+
+.serdmb {
+	width:700px; 
+	height:50px; 
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:25px;
+	box-shadow: 2px 4px 25px 0px rgba(0,0,0,0.10);
+	margin-left:290px;
+	position:relative;
+	background:#fff;}
+
+.dmseh {text-align:center; margin-bottom:25px;}
+.dmsep {
+	text-align:center;
+    width:750px; 
+    display:flex; 
+    justify-content:center; 
+    margin-bottom:30px;
+    margin-left:270px;}
+.serdmb input{
+	width:720px; 
+	height:50px;
+	position:absolute; 
+	left:-8px;
+	padding-left:15px; 
+	border-radius:20px; 
+	font-size:18px; 
+	font-weight:400; 
+	border-radius:25px;
+	border:none;}
+
+.serdmb input:focus{outline:none; border:1px solid #673DE6;}	
+.serdmb a {
+	width:170px;
+	margin-left:30px;
+	height:50px; 
+	background-color:#673DE6; 
+	position:absolute;
+	right:-11px;
+	border-radius:25px; 
+	text-align:center; 
+	color:#fff;
+	font-weight:600;
+	padding-top:10px;}
+
+/* Setup Start */
+.setup {background-color:#fff; height:550px; width:100%;}
+.setpdiv {
+	display:flex; 
+	justify-content:space-around;}
+.setpdiv img {border: 10px solid #2F1C6A; width:500px; height:350px; margin-top:6rem; /* margin-right:50px; */}	
+.conset {margin-top:11rem; margin-left:50px; width:450px;}
+.seth {color:#2F1C6A ;}
+.sett {color:#cccc;}
+.conset a{color:#2F1C6A;}
+.esou {color:#2F1C6A;}
+.userfr {width:500px; margin-left:50px;}
+.userfrdiv {display:flex;}
+.allcnfr {color:#2F1C6A;}
+.userfrdiv img {height:450px; width:650px;}
+.userfr .allcnfr {margin-top:30px;}
+/* Setup End */
+
+
+/* Guranty Start */
+.mngr {width:100%; height:250px;}
+.mnh {color:#2F1C6A; margin-bottom:20px;}
+.mnp {margin-bottom:50px;}
+.mngrdv {display:inline-block; align-items:center; text-align:center; margin-left:18rem;}
+.mngrdv a {color:#fff; width:250px; padding:17px 70px; border-radius:25px; height:25px; background-color:#673DE6}
+.mngrdv a:hover{color:#fff; text-decoration:none;}
+/* Guranty End */
+
+/* Button Box Start */
+ .button-box {
+ 	width:700px;
+ 	padding: 5px;
+ 	margin:35px auto;
+ 	position:relative;
+ 	box-shadow: 0 0 20px 0px black;
+ 	border-radius:30px;
+ }
+
+ .toogle-btn {
+ 	padding: 10px 30px;
+ 	cursor:pointer;
+ 	background:transparent;
+ 	border:0;
+ 	outline:none;
+ 	position:relative;
+ 	font-weight:700;
+ 	color:#2F1C6A;
+ }
+
+ #btn {
+ 	top:0;
+ 	left:0;
+ 	position:absolute;
+ 	width:250px;
+ 	height:100%;
+ 	background:linear-gradient(to right, #673DE6, #2F1C6A);
+ 	border-radius:30px;
+ 	transition:.5s;
+ }
+
+ .allcards {margin-left:10rem!important;}
+ .card {
+ 	padding-left:40px!important; 
+ 	margin-right:30px; 
+ 	padding-top:50px!important; 
+ 	box-shadow: 0 0 20px 0px grey;
+ 	padding-bottom:20px!important;
+ 	transition:all 0.2s linear;
+ }
+ .card:hover {box-shadow: 2px 2px 50px 0px grey; transform:scale(1.05);}
+ .dis {font-size:16px; background-color:#8C85FF; color:#fff; margin-left:2px; padding:8px; border-radius:30px;}
+ .pricemain {margin-bottom:30px; display:flex; justify-content:center; color:#2F1C6A; text-align:center; padding-top:10px;}
+ .mpr {font-size:27px; font-weight:800;}
+ .mrp {font-size:50px; font-weight:800;}
+ .month {font-size:20px; font-weight:600;}
+ .addtocart {text-align:center; margin-left:-5px!important; color:#fff; padding:5px 0px; border-radius:30px; width:250px; background-color:#673DE6; font-size:20px; font-weight:600; }
+ .addtocart:hover{color:#fff; text-decoration:none;}
+ .pdet {margin-top:10px; color:grey; text-align:center; margin-bottom:50px;}
+ .fundet {
+ 	line-height:2rem;
+ 	list-style: none;
+ 	color:#2F1C6A;
+ }
+ .addtocart:hover {color:#fff;}
+ .hed {color:#2F1C6A;}
+ .des {color:#2F1C6A;}
+ .fa-check {color:#EDA92D;}
+ .fa-times {color:red;}
+ .grech {color:#00B67A!important;}
+ .seeall {text-align:center;  width:100%; font-size:18px; font-weight:700;}
+ .seeall a {color:#2F1C6A;}
+ .seeall a:hover{color:#2F1C6A; text-decoration:none;}
+/* Button Box End */
+
+/* -----------------Dekstop and laptopes --------------------- */
+              @media (min-width: 1024px){
+                  
+        
+              }
+
+                /* ----------------- Tablates --------------------- */
+               @media (min-width: 768px) and (max-width: 991px){
+                  .country {padding-left:-200rem;}
+                  .firstimg img {
+	                   display:none;}
+	              .frontrow {min-height:900px; 
+                             border:none;
+                             width:40rem;
+                             margin-left: 35px!important;
+                             margin-top: 10px!important;}
+                  .secimg img {
+	                     width:200px!important;
+	                     height:250px!important;
+	                     position: absolute;
+                         left:160%;
+                         top:-170%;}
+                  .tmfirst { 
+	                       margin-left:1rem;}  
+	              .strtbox {
+	                    cursor:pointer; 
+	                    margin-left:30px; } 
+
+                   .guaranty {margin-left:70px; 
+                              margin-top:20px;} 
+                   .bransec {
+	                     padding-left:140px;
+	                     margin-bottom:50px; 
+	                     width:47rem;} 
+	                /* .brndimg {display:inline-block;}  */    
+	               .brndimg img {width:150px; padding-bottom:20px;} 
+	               .allcards {margin-left:4rem!important;}
+	               .addtocart {margin-left:-20px!important; padding:5px 0px; width:160px; font-size:16px; font-weight:500; }                                                  
+                   .pdet {width:150px; margin-left:-20px; color:grey; text-align:center; margin-bottom:30px;}
+                   .dmsep {
+                      width:750px;
+                      margin-left:10px;}
+                   .serdmb {margin-left:30px;}
+                   .setpdiv {width:100%;}
+                   .setpdiv img {border: 8px solid #2F1C6A; width:300px; height:200px;} 
+                   .conset {margin-top:6rem; margin-left:10px; width:400px;}
+                   .userfrdiv img {height:450px; width:450px;}	
+                   .userfr {width:400px; margin-left:15px; margin-top:-30px}
+                   .mngrdv {margin-left:1rem;}	
+                    .login {
+	                width:650px; 
+	                height:40px; 
+	                margin-left:20px;
+	                border-radius:20px; 
+	                padding-left:300px;
+	                padding-top:5px;
+	                text-decoration:none;
+	                color:black;
+	                border:1px solid black;}
+	                .cart {
+	                width:650px; 
+	                height:40px; 
+	                margin-top:10px;
+	                border-radius:20px;
+	                padding-left:300px;
+	                border: 1px solid black;}
+               }
+
+              /*--------------------- Mobile Phones----------------------------*/
+			@media (max-width: 767px){
+				 .navbar {padding-left:0px!important;}
+                 .firstimg img {display:none;}
+                 .frontrow {border:0px; display:none;}
+
+                 .firsthed {
+                 	font-size: 2.1rem;
+                 	line-height: 1;
+                 	font-weight: 700; 
+                 	text-align:center;} 
+                 .centerfrontdv {
+	                 padding-top: 0px!important;
+	                 position:absolute;
+	                 left: -110px;}	
+	              .tmfirst {margin-left:2rem;}  
+	              .strtbox {margin-left:40px;}
+	              .guaranty {margin-left:80px;}
+	              .frontview {min-height:1000px;}
+	              .secimg {left:-8rem; top:-50px;}
+	              .brndimg {
+	                  display:inline-block;
+                        }
+                  .brndimg img {width:300px; padding-bottom:20px;}
+                  .bransec {height:350px;} 
+                  .dmsep {
+	                  text-align:center;
+                      width:450px;  
+                      margin-bottom:30px;
+                       margin-left:0px;}
+
+                  .serdmb {
+	                    width:450px;  
+	                   margin-left:30px;} 
+	              .serdmb input{
+	                      width:450px;  
+	                      left:-8px;
+	                      font-size:5px;
+	                      padding-left:15px; 
+	                      font-size:18px; }
+	              .serdmb a {
+	              	width:140px;
+	                margin-left:30px;
+	                right:1px;
+	                padding-top:10px;} 
+	              .button-box {
+	                width:450px;
+ 	                padding: 5px;
+ 	                margin:35px auto;
+ 	                position:relative;}   
+ 	              #btn {
+ 	                 top:0;
+ 	                 left:0;
+ 	                 position:absolute;
+ 	                 width:250px;
+ 	                 height:55px;
+ 	                 background:linear-gradient(to right, #673DE6, #2F1C6A);}     
+ 	              .toogle-btn {
+ 	                 padding: 10px 30px;
+ 	                 background:transparent;
+ 	                 border:0;
+ 	                 outline:none;
+ 	                 position:relative;
+ 	                 font-weight:600;
+ 	                 color:#2F1C6A;}
+ 	               .websitebui {display:none;}  
+ 	               .allcards {margin-left:0rem!important;} 
+ 	               .card {
+ 	                padding-left:70px!important; 
+ 	                margin-right:-10px; 
+ 	                margin-left:50px;
+ 	                margin-bottom:40px;
+ 	                width:150px!important;
+ 	                padding-top:50px!important; 
+ 	                padding-bottom:20px!important;}   
+ 	                .card:hover{transform:scale(1);}
+                    .addtocart {
+                    	margin-left:20px!important; }
+
+                    .setup {height:550px; margin-bottom:150px;}
+                    .setpdiv {display:block;}
+                    .setpdiv img {border: 10px solid #2F1C6A; width:450px; height:300px; margin-top:3rem; margin-left:20px; margin-right:0px;} 	
+                    .conset {margin-top:2rem; margin-left:50px; width:400px;}
+                
+
+                .login {
+	                width:350px; 
+	                height:40px; 
+	                margin-left:20px;
+	                border-radius:20px; 
+	                padding-left:150px;
+	                padding-top:5px;
+	                text-decoration:none;
+	                color:black;
+	                border:1px solid black;}
+             
+
+              .userfrdiv {display:block;}
+              .userfrdiv img {width:450px; height:300px; margin-left:20px;}
+              .userfr {width:380px;}
+              .mngr {width:750px; margin-left:-280px; margin-top:300px;}
+              .mngrdv {display:block; text-align:center;}
+              
+
+              .cart {
+	                width:350px; 
+	                height:40px; 
+	                margin-top:10px;
+	                border-radius:20px;
+	                padding-left:145px;
+	                border: 1px solid black;}
+
+             } 
+
+
+			@media (max-width: 468px){}
+
+
+
+
+			@media (min-width: 1023px) and (max-width: 1120px){
+
+               .cp {display:none!important;}
+               .frontrow {min-height: 650px; 
+                        border: 3px solid #fff;
+                        border-radius: 20px;
+                        width:55rem;
+                        margin-left: 50px!important;
+                       margin-top: 50px!important;}
+               .brndimg img {width:200px; padding-bottom:20px;}
+               .addtocart {width:190px;}
+               .allcards {margin-left:6rem!important;}
+               .dmsep {width:750px; margin-left:200px;}
+               .serdmb {width:700px; 
+	                   margin-left:200px;}
+	           .mngrdv {margin-left:8rem;}         
+
+			}
+
+
+			@media (min-width: 0px) and (max-width: 280px){
+                   .logo {width:100px; padding-left:10px;} 
+                   .country {display:none;}
+                   .cnicon {font-size:0px!important;}
+                   .ch {display:none;}
+                   .navbar-toggler-icon {width:1rem!important; height: 1rem!important;}
+                   .navbar-toggler {margin-left:-100px!important;}
+                   .frontrow {width:100%!important;}
+                   .centerfrontdv {
+	                 padding-top: 0px!important;
+	                 position:absolute;
+	                 width:100%!important;
+	                 left: -160px;}
+	              .discounth {font-size:30px;} 
+	              .tmfirst {
+	                   width:230px; 
+	                   margin-left:0rem;} 
+	              .minut {display: none;} 
+                  .secon {display:none;}
+
+                  .strtbox {
+	                 margin-left:10px; 
+	                 width:200px; 
+	                 height:40px;}
+                  
+                  .guaranty {
+	                 margin-left:40px;
+	                 width:150px; 
+	                 text-align:center;
+	                 margin-top:20px;} 
+                  .secimg img {
+	                   width:200px!important;
+	                   height:240px!important;
+	                   position: absolute;
+                       left:1%;
+                       top:50%;}
+                   .brndimg img {width:150px; margin-left:-80px; padding-bottom:40px;} 
+                   .button-box {
+ 	                    width:210px;
+ 	                    padding: 5px;
+ 	                    margin:40px 3px;
+ 	                    position:relative;
+ 	                    box-shadow: 0 0 20px 0px black;
+ 	                    border-radius:30px;} 
+ 	               .toogle-btn {
+ 	                   font-weight:400;
+ 	                   font-size:15px;
+ 	                   color:#2F1C6A;}
+ 	               #btn {
+ 	                 width:210px;
+ 	                 height:50%;}    
+ 	                .allcards {margin-left:-50px!important;} 
+ 	                .card { 
+ 	                   margin-right:0px;}
+ 	                .addtocart {margin-left:-50px!important;padding:5px 0px; width:200px; font-size:18px;}         
+			}

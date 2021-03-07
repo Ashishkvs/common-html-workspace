@@ -1,0 +1,76 @@
+* {
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+.domainheading {
+	font-size:3rem;
+	font-weight:700;
+	color:#2F1C6A!important;
+}
+.text-center.text-light.headparagraph{font-size:1.1rem}
+.masthead {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)!important;
+	min-height:85vh!important;
+	padding-top:10rem;
+}
+
+.underla {
+	text-decoration: underline!important;
+	color:#2F1C6A;
+}
+
+.dminp {
+	border:none!important;
+	outline:none!important;
+	border-radius:30px!important;
+}
+
+.dminp:focus {
+   box-shadow: 5px 10px 10px rgb(0 0 0 / 10%)!important;
+}
+
+.serchbtn {
+	border:none!important;
+	outline:none!important;
+	border-radius:30px!important;
+	background-color:#EDA92D!important;
+	line-height:2.2rem!important;
+}
+
+.colhed {
+	color:#2F1C6A;
+}
+
+.aboutwhois {
+	background-color:#fff;
+	padding-top:8rem;
+}
+
+.askqssec {
+	margin-top:6rem;
+	margin-bottom:6rem;
+}
+
+.colla {
+	color:#2F1C6A;
+}
+
+.colla:hover{
+	text-decoration:none;
+	color:#2F1C6A;
+}
+
+.addcardbg {
+	box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+
+.whydmtrnsfr {
+	padding-top:3rem;
+	margin-top:3rem;
+	background-color:#fff6ee;
+}
+
+.successtrans {
+	margin-top:3rem;
+}

@@ -1,0 +1,236 @@
+* {
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif; 
+	-webkit-font-smoothing:antialiased;
+}
+
+body {
+	background-image:url('https://thumbs.dreamstime.com/b/petrol-pump-25541220.jpg');
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-repeat:no-repeat;
+
+}
+
+/* header:before {
+	content:'';
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: linear-gradient(#2196f3, #e91e63);
+	clip-path: circle(30% at right 70%);
+	z-index:0;
+}
+
+header:after {
+	content:'';
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: linear-gradient(#2196f3, #e91e63);
+	clip-path: circle(20% at 10% 10%);
+	z-index:1;
+} */
+
+.mainbg {
+	min-height:600px;
+	box-shadow: inset 10px 10px 500px rgba(255, 255, 255, 0.5);
+	box-shadow:2px 5px 20px rgba(0,0,0,0.9);	
+	overflow:hidden;
+	margin:2rem auto;
+	border-radius:5px;
+	z-index:2;
+/* 	background: inherit; */
+}
+
+/* width */
+.chats::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.chats::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.9);
+}
+
+/* Handle */
+.chats::-webkit-scrollbar-thumb {
+  background:rgba(0,0,0,0.4);
+}
+
+/* Handle on hover */
+.chats::-webkit-scrollbar-thumb:hover {
+  background:rgba(0,0,0,0.6);
+}
+
+.chats {
+	background-color: rgba(0, 0, 0, 0.3);
+    height:600px;
+    padding:15px;
+    overflow-y:scroll;
+}
+
+.chatsrdiv {
+	padding:0px 3px!important;
+}
+
+.chtsearch {
+	font-family:fontawesome;
+	margin-bottom:10px;
+	padding:20px 5px 20px 13px!important;
+}
+
+.topfilsec {
+	background-color:rgba(0, 0, 0, 0.3);
+}
+
+.chtcol {
+	    padding-right: 0px!important;
+        padding-left: 12px!important;
+}
+.bgrow {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.secdiv {
+	background-color: rgba(0, 0, 0, 0.2);
+	min-height:600px;
+	padding:0px 5px;
+	/* overflow-y:scroll; */
+}
+
+.secdivm {
+	padding-right: 0px!important;
+    padding-left: 15px!important;
+}
+
+table::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+table::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.9);
+}
+
+/* Handle */
+table::-webkit-scrollbar-thumb {
+  background:rgba(0,0,0,0.4);
+}
+
+/* Handle on hover */
+table::-webkit-scrollbar-thumb:hover {
+  background:rgba(0,0,0,0.6);
+}
+
+table {
+	background-color:#fff;
+	height:485px;
+	margin-bottom:0px!important;
+}
+
+.placeicon {
+	font-family:fontawesome;
+	border:none;
+	outline:none;
+	padding:7px 10px 7px 15px;
+	width:300px;
+}
+
+.placeicon:focus {
+	outline:2px solid #0c22c7
+}
+
+.filter {
+	background-color:#fff;
+	padding:5px 30px;
+	margin:10px 10px;
+	border-radius:5px;	
+	border:2px solid #0c22c7;
+}
+
+.inpuser {
+	font-family:fontawesome;
+	margin-bottom:10px;
+	padding:7px 10px 7px 15px;
+}
+
+.inpuser:focus {
+	outline:2px solid #0c22c7
+}
+
+
+@media (max-width:320px) {
+
+.sumbitbt {
+	float:right;
+}
+}
+
+@media (min-width:786px) and (max-width:1200px) {
+
+}
+
+@media (min-width:768px) and (max-width:780px) {
+    .sumbitbt {
+	float:right;
+}
+}
+
+@media (min-width:471px) and (max-width:768px){
+	.placeicon {
+	width:200px;
+}
+.sumbitbt {
+	float:right;
+}
+}
+
+@media (min-width:0px) and (max-width:280px){
+	.placeicon {
+	width:120px;
+     }
+    .paydubtn {
+        font-size:11px!important;
+        margin-left:10px;
+        padding:0px 20px!important;
+    }
+    .filtext {
+    	display:none;
+    }
+    .filter {
+	padding:3px 10px;
+	margin:10px 10px;
+    }
+    .sumbitbt {
+	float:right;
+}
+}
+
+@media (min-width:281px) and (max-width:414px){
+	.placeicon {
+	width:170px;
+     }
+    .paydubtn {
+        font-size:11px!important;
+        padding:10px 20px!important;
+    }
+    .filtext {
+    	display:none;
+    }
+    .filter {
+	padding:3px 10px;
+	margin:10px 10px;
+}
+.sumbitbt {
+	float:right;
+}
+}

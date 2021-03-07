@@ -1,0 +1,333 @@
+* {
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif; 
+	-webkit-font-smoothing:antialiased;
+}
+
+body {
+	background-image:url('https://thumbs.dreamstime.com/b/petrol-pump-25541220.jpg');
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-repeat:no-repeat;
+
+}
+
+/* header:before {
+	content:'';
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: linear-gradient(#2196f3, #e91e63);
+	clip-path: circle(30% at right 70%);
+	z-index:0;
+}
+
+header:after {
+	content:'';
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: linear-gradient(#2196f3, #e91e63);
+	clip-path: circle(20% at 10% 10%);
+	z-index:1;
+} */
+
+.mainbg {
+	min-height:600px;
+	box-shadow: inset 10px 10px 500px rgba(255, 255, 255, 0.5);
+	box-shadow:2px 5px 20px rgba(0,0,0,0.9);	
+	overflow:hidden;
+	margin:2rem auto;
+	border-radius:5px;
+	z-index:2;
+/* 	background: inherit; */
+}
+
+/* width */
+.chats::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.chats::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.9);
+}
+
+/* Handle */
+.chats::-webkit-scrollbar-thumb {
+  background:rgba(0,0,0,0.4);
+}
+
+/* Handle on hover */
+.chats::-webkit-scrollbar-thumb:hover {
+  background:rgba(0,0,0,0.6);
+}
+
+/* .mainbg:before {
+	content:'';
+	width:1550px;
+	height:750px;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	box-shadow: inset 0 0 0 500px rgba(255, 255, 255, 0.5);
+	filter:blur(5px);
+} */
+
+.chats {
+	background-color: rgba(0, 0, 0, 0.3);
+    height:600px;
+    padding:15px;
+    overflow-y:scroll;
+}
+
+.chatsrdiv {
+	padding:0px 3px!important;
+}
+
+.chtsearch {
+	font-family:fontawesome;
+	margin-bottom:10px;
+	padding:20px 5px 20px 13px!important;
+}
+
+.topfilsec {
+	background-color:rgba(0, 0, 0, 0.3);
+}
+
+.chatcard {
+	background-color:rgba(255,255,255,1);
+	height:130px;
+	margin-bottom:20px;
+	border-radius:10px;
+	box-shadow:5px 7px 5px grey;
+	cursor:pointer;
+}
+
+.chtcol {
+	    padding-right: 0px!important;
+        padding-left: 12px!important;
+}
+.bgrow {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.secdiv {
+	background-color: rgba(0, 0, 0, 0.2);
+	min-height:600px;
+	padding:0px 5px;
+	/* overflow-y:scroll; */
+}
+
+.secdivm {
+	padding-right: 0px!important;
+    padding-left: 15px!important;
+}
+
+.chtconte {
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+.chtconte img {
+	border-radius:50%;
+	width:50px;
+	height:50px;
+}
+
+.dt {
+	font-size:10px;
+	margin-top:0px;
+}
+
+.conp {
+	font-size:12px;
+	margin-top:0px;
+}
+
+.dthead {
+	display:flex;
+	flex-direction:column;
+    margin:15px 150px 5px 0px;
+}
+
+/* width */
+table::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+table::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.9);
+}
+
+/* Handle */
+table::-webkit-scrollbar-thumb {
+  background:rgba(0,0,0,0.4);
+}
+
+/* Handle on hover */
+table::-webkit-scrollbar-thumb:hover {
+  background:rgba(0,0,0,0.6);
+}
+
+table {
+	background-color:#fff;
+	height:485px;
+	margin-bottom:0px!important;
+}
+
+td .fa-ellipsis-v {
+	padding:15px 15px 0px 15px;
+}
+
+th .fa-ellipsis-v {
+	padding:25px 15px 0px 15px;
+}
+
+td, th {
+	padding: 0px 15px!important;
+}
+
+.vmore {
+	font-size:12px;
+
+}
+.spn {
+	font-size:10px;
+	color:rgba(0,0,0,0.5);
+}
+
+.fa-circle {
+	font-size:0.7rem!important;
+	margin-right:5px;
+}
+
+.placeicon {
+	font-family:fontawesome;
+	border:none;
+	outline:none;
+	padding:7px 10px 7px 15px;
+	width:300px;
+}
+
+.placeicon:focus {
+	outline:2px solid #0c22c7
+}
+
+.filter {
+	background-color:#fff;
+	padding:5px 30px;
+	margin:10px 10px;
+	border-radius:5px;	
+	border:2px solid #0c22c7;
+}
+
+.inpuser {
+	font-family:fontawesome;
+	margin-bottom:10px;
+	padding:7px 10px 7px 15px;
+}
+
+.inpuser:focus {
+	outline:2px solid #0c22c7
+}
+
+
+@media (max-width:320px) {
+
+.dthead {
+	display:flex;
+	flex-direction:column;
+    margin:5px 0px 0px 0px;
+}
+.sumbitbt {
+	float:right;
+}
+}
+
+@media (min-width:786px) and (max-width:1200px) {
+	.dthead {
+	display:flex;
+	flex-direction:column;
+    margin:5px 0px 0px 0px;
+}
+}
+
+@media (min-width:768px) and (max-width:780px) {
+	.dthead {
+	display:flex;
+	flex-direction:column;
+    margin:15px 450px 5px 0px;
+    }
+    td, th {
+	padding: 0px 10px!important;
+    }
+    .sumbitbt {
+	float:right;
+}
+}
+
+@media (min-width:471px) and (max-width:768px){
+	.placeicon {
+	width:200px;
+}
+.sumbitbt {
+	float:right;
+}
+}
+
+@media (min-width:0px) and (max-width:280px){
+	.placeicon {
+	width:120px;
+     }
+    .paydubtn {
+        font-size:11px!important;
+        margin-left:10px;
+        padding:0px 20px!important;
+    }
+    .filtext {
+    	display:none;
+    }
+    .filter {
+	padding:3px 10px;
+	margin:10px 10px;
+    }
+    td, th {
+	padding: 10px 15px!important;
+    }
+    .sumbitbt {
+	float:right;
+}
+}
+
+@media (min-width:281px) and (max-width:414px){
+	.placeicon {
+	width:170px;
+     }
+    .paydubtn {
+        font-size:11px!important;
+        padding:10px 20px!important;
+    }
+    .filtext {
+    	display:none;
+    }
+    .filter {
+	padding:3px 10px;
+	margin:10px 10px;
+}
+.sumbitbt {
+	float:right;
+}
+}
